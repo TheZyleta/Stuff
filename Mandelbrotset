@@ -10,7 +10,6 @@
 <body>
   <canvas id="cav" width="1000" height="1000"></canvas>
   <script>
-
    m = document.getElementById("cav").getContext("2d")
    pixel = function(x,y,c){m.fillStyle=c; m.fillRect(x,y,5,5)}
   for(var a =-499;a<499;a++){
@@ -26,10 +25,6 @@
 			}
 		}
 	}
-	
-
-    
-
   </script>
 </body>
 </html>
